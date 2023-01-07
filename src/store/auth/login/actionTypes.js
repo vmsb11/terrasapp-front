@@ -1,0 +1,18 @@
+/**
+ * Definição das actions do reducer responsável pelo login e registro do usuário
+ */
+export const LOGIN_USER = 'LOGIN_USER';
+export const LOGIN_USER_SUCCESS = 'LOGIN_USER_SUCCESS';
+export const LOGIN_USER_ERROR = 'LOGIN_USER_ERROR';
+export const LOGOUT_USER = 'LOGOUT_USER';
+export const LOGOUT_USER_SUCCESS = 'LOGOUT_USER_SUCCESS';
+export const RECOVERY_USER_PASSWORD = 'RECOVERY_USER_PASSWORD';
+export const RECOVERY_USER_PASSWORD_SUCCESS = 'RECOVERY_USER_PASSWORD_SUCCESS';
+export const RECOVERY_USER_PASSWORD_ERROR = 'RECOVERY_USER_PASSWORD_ERROR';
+export const ADD_NEW_USER = 'ADD_NEW_USER';
+export const ADD_USER_SUCCESS = 'ADD_USER_SUCCESS';
+export const ADD_USER_FAIL = 'ADD_USER_FAIL';
+export const UPDATE_USER = 'UPDATE_USER';
+export const UPDATE_USER_SUCCESS = 'UPDATE_USER_SUCCESS';
+export const UPDATE_USER_FAIL = 'UPDATE_USER_FAIL';
+export const SELECT_USER = 'SELECT_USER';
