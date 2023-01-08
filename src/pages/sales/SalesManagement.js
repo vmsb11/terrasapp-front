@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { 
-  Card, 
-  CardBody, 
-  CardTitle, 
+  Card,
+  CardBody,
+  CardTitle,
   Container,
   Row
 } from "reactstrap";
